@@ -1,0 +1,43 @@
+.product-list {
+    max-width: 400px;
+    padding: 20px;
+}
+
+.product-write {
+    max-width: 400px;
+    padding: 20px;
+}
+
+.product-btn{
+    max-width: 400px;
+    padding: 20px;
+}
+
+.product-image {
+    width: 100px;
+
+}
+
+.media-body{
+    padding-left: 10px;  
+}
+
+#detailModal{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+#detailModalContent{
+    display: flex; /* 레이아웃 배치 전용 기능*/ 
+    align-items: center; /*아이템들의 행이 2줄 이상 되었을 때의 수직축 방향 정렬을 결정하는 속성*/
+}
+  
+#detailcontent{
+    padding-left: 10px;
+    display: inline-block;
+    line-height: 80%;
+}
+
